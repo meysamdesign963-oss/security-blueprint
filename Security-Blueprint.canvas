@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "id": "5b691596e5789722",
+      "id": "554d6be371d65da2",
       "type": "group",
       "label": "🏗 1 · Architecture & Tech Stack | معماری و پشته‌ی فناوری",
       "color": "5",
@@ -11,7 +11,7 @@
       "height": 1140
     },
     {
-      "id": "275aeff74077b64e",
+      "id": "125b5fdfa3824ca3",
       "type": "group",
       "label": "📁 2 · Folder Structure & Code Style | ساختار پوشه‌ها و سبک کد",
       "color": "6",
@@ -21,37 +21,37 @@
       "height": 1580
     },
     {
-      "id": "9fcea33916ebb340",
+      "id": "dca435e5b579c391",
       "type": "group",
       "label": "🚪 3 · Login Security | امنیت ورود",
       "color": "1",
       "x": 680,
       "y": -224,
       "width": 680,
-      "height": 1134
+      "height": 1184
     },
     {
-      "id": "a1bad783ad5c3aa5",
+      "id": "475275af3434632d",
       "type": "group",
       "label": "🔑 4 · JWT Token System | سیستم توکن",
       "color": "2",
       "x": 680,
-      "y": 1026,
+      "y": 1076,
       "width": 680,
       "height": 4718
     },
     {
-      "id": "ab2084d204406847",
+      "id": "b98dd774a223203c",
       "type": "group",
       "label": "🛡 5 · Post-Login Security | امنیت پس از ورود",
       "color": "4",
       "x": 1420,
       "y": -224,
       "width": 680,
-      "height": 4154
+      "height": 4184
     },
     {
-      "id": "8c52e18db7f1744d",
+      "id": "fa76a0752386c6a1",
       "type": "group",
       "label": "🐞 6 · OWASP Top 10 Checklist | چک‌لیست ده تهدید امنیتی وب",
       "color": "3",
@@ -61,16 +61,16 @@
       "height": 3646
     },
     {
-      "id": "93860486f3dc9e38",
+      "id": "c8de85078f28a1fb",
       "type": "text",
       "x": 340,
       "y": -700,
       "width": 900,
       "height": 330,
-      "text": "# 🔐 Security Blueprint — Real-Estate CRM\n### نقشه‌ی جامع امنیت و مهندسی — سامانه‌ی مدیریت مشاوران املاک\n\n🇬🇧 Bilingual engineering & security specification for a Real-Estate CRM built with **Next.js + MongoDB**. Follow the numbered groups and the arrows (1 → 6). Every card explains the topic in **English first, then Persian**.\n\n🇮🇷 مستندات دوزبانه‌ی مهندسی و امنیت برای سامانه‌ی املاک با **Next.js + MongoDB**. گروه‌های شماره‌دار و فلش‌ها را دنبال کنید (۱ تا ۶). هر کارت اول **انگلیسی** و بعد **فارسی** توضیح داده شده است.\n\n**1️⃣ Architecture معماری → 2️⃣ Structure ساختار → 3️⃣ Login ورود → 4️⃣ Tokens توکن‌ها → 5️⃣ Post-Login پس از ورود → 6️⃣ OWASP**"
+      "text": "# 🔐 Security Blueprint — Universal Web App Spec\n### نقشه‌ی جامع امنیت و مهندسی — پرامپت عمومی برای هر اپلیکیشن وب\n\n🇬🇧 A **project-agnostic** security & engineering blueprint for any web application built with **Next.js + MongoDB**. Copy this canvas into your repo and hand it to a developer or an AI coding agent as a ready-made spec/prompt. Follow the numbered groups and the arrows (1 → 6). Every card explains the topic in **English first, then Persian**.\n\n🇮🇷 یک بلوپرینت **مستقل از نوع پروژه** برای امنیت و مهندسی هر اپلیکیشن وب با **Next.js + MongoDB**. این کانواز را در ریپوی خود کپی کنید و به‌عنوان پرامپت/اسپک آماده به توسعه‌دهنده یا ایجنت هوش مصنوعی بدهید. گروه‌های شماره‌دار و فلش‌ها را دنبال کنید (۱ تا ۶). هر کارت اول **انگلیسی** و بعد **فارسی** توضیح داده شده است.\n\n**1️⃣ Architecture معماری → 2️⃣ Structure ساختار → 3️⃣ Login ورود → 4️⃣ Tokens توکن‌ها → 5️⃣ Post-Login پس از ورود → 6️⃣ OWASP**"
     },
     {
-      "id": "b9b28c37be93b963",
+      "id": "6087405fc83fa2d0",
       "type": "text",
       "x": 0,
       "y": -160,
@@ -79,7 +79,7 @@
       "text": "## 🧱 Tech Stack | پشته‌ی فناوری\n\n🇬🇧\n- **Database → MongoDB** — no SQL, so schema changes never need migrations; updates stay fast and painless.\n- **Frontend → React** — light and fast UI.\n- **Backend → Next.js + Node.js** architecture — fast and reliable, one codebase for app + API.\n\n🇮🇷\n- **دیتابیس → MongoDB** — بدون SQL؛ تغییرات شِما نیازی به migration ندارند و آپدیت‌ها سریع و بی‌دردسر می‌مانند.\n- **فرانت‌اند → React** — رابط کاربری سبک و سریع.\n- **بک‌اند → Next.js + Node.js** — سریع و قابل‌اعتماد؛ یک کدبیس برای اپ و API."
     },
     {
-      "id": "0bad965726660f6f",
+      "id": "6f9f997d8e5cc739",
       "type": "text",
       "x": 0,
       "y": 386,
@@ -88,7 +88,7 @@
       "text": "## 🎯 Engineering Goals | اهداف مهندسی\n\n🇬🇧\n- **Update-resilient:** any update to the database or the code must never break the project — this is why SQL is avoided entirely.\n- **SEO-first:** every public page must be fully SEO-optimized — practical, working on-page SEO on all public routes (very important).\n\n🇮🇷\n- **مقاوم در برابر آپدیت:** هیچ آپدیتی روی دیتابیس یا کد نباید پروژه را بشکند — به همین دلیل اصلاً از SQL استفاده نمی‌شود.\n- **سئو محور:** تمام صفحات عمومی باید سئوی کامل، کاربردی و واقعی داشته باشند (خیلی مهم)."
     },
     {
-      "id": "c7c845455e79b1f1",
+      "id": "585535ef7c67b116",
       "type": "text",
       "x": 0,
       "y": 1096,
@@ -97,7 +97,7 @@
       "text": "## 🗂 Project Structure | ساختار پروژه\n\n🇬🇧 The whole project lives in **src/** and must follow this exact structure:\n\n```text\nsrc/\n├── app/            → Frontend pages & routing\n│   └── api/        → Backend & API routes\n├── public/\n│   ├── img/        → Site images\n│   └── font/       → Site fonts\n├── controllers/    → HTTP responses\n├── services/       → All business logic\n├── components/     → UI & styles (auth, theme, layout, ui)\n└── utils/          → Libraries, realtime, helpers\n.env                → Secrets: token keys, DB URI (never commit!)\n```\n\n🇮🇷 کل پروژه در **src/** است و باید دقیقاً از این ساختار پیروی کند:\n- **app** → صفحه‌بندی و routing فرانت — **api** داخل آن: مسئول بک‌اند و APIها\n- **public** → عکس‌ها در **img** و فونت‌ها در **font**\n- **controllers** → در این قسمت responseها داده می‌شوند\n- **services** → کل منطق هر بخش اینجا نوشته می‌شود\n- **components** → UI و استایل هر بخش (زیرمجموعه‌های auth، theme، layout، ui)\n- **utils** → کتابخانه‌ها، ارتباط‌های real-time و کارهای جانبی و کمکی\n- **.env** → کلیدهای امنیتی توکن‌ها، آدرس اتصال به دیتابیس و سایر اسرار"
     },
     {
-      "id": "518b55ee5b5e6001",
+      "id": "a7a34274c611efb6",
       "type": "text",
       "x": 0,
       "y": 2132,
@@ -106,115 +106,115 @@
       "text": "## ✨ Code Style | سبک کدنویسی\n\n🇬🇧\n- **Clean code:** anyone must be able to read and understand the code, so future updates stay painless.\n- **Componentize everything:** convert every reusable piece into a component under **components/** (auth, theme, layout, ui) so the project stays scalable.\n\n🇮🇷\n- **کد تمیز:** هر آدمی باید بفهمد کد چیست تا بعد از آپدیت‌ها اذیت نشوی و پروژه قابل‌توسعه بماند.\n- **کامپوننت‌محور:** هر بخش قابل‌استفاده را تا جای ممکن به کامپوننت تبدیل کن — این پوشه خیلی مهم است."
     },
     {
-      "id": "942852f9ea15e8e6",
+      "id": "d919cec8c4daf578",
       "type": "text",
       "x": 720,
       "y": -160,
       "width": 600,
-      "height": 1030,
-      "text": "## 🚪 Login Requirements | الزامات امنیتی ورود\n\n🇬🇧 **1. Password hashing** — store passwords only with **Bcrypt** or **Argon2**; plain text is forbidden.\n🇮🇷 **۱. هش کردن پسورد** — ذخیره‌ی رمز عبور در دیتابیس فقط با **Bcrypt** یا **Argon2** مجاز است؛ ذخیره‌ی متن خام ممنوع.\n\n🇬🇧 **2. Rate limit** — max **5 login requests per 15 minutes** for each IP; violators get a temporary IP block.\n🇮🇷 **۲. محدودیت تلاش (Rate Limit)** — حداکثر **۵ درخواست لاگین در ۱۵ دقیقه** برای هر آی‌پی؛ در صورت تخلف، بلاک موقت آی‌پی.\n\n🇬🇧 **3. Unified error message** — never reveal whether the username or the password was wrong; only one generic message.\n🇮🇷 **۳. پیام خطای یکپارچه** — سیستم نباید بگوید یوزرنیم اشتباه است یا پسورد؛ فقط یک پیام کلی: «نام کاربری یا رمز عبور اشتباه است».\n\n🇬🇧 **4. Secure token storage** — the login JWT must only live in **HttpOnly + Secure** cookies so XSS cannot steal it.\n🇮🇷 **۴. توکن امن** — توکن ورود (JWT) فقط در کوکی‌های **HttpOnly** و **Secure** قرار گیرد تا با XSS قابل‌سرقت نباشد.\n\n🇬🇧 **5. Strict input validation** — every field (Persian name, English username, 11-digit Iranian phone number) must be regex-validated **server-side** so malicious payloads (SQLi / XSS) never reach the database.\n🇮🇷 **۵. اعتبارسنجی سختگیرانه‌ی اینپوت‌ها** — تمامی فیلدها (اسم فارسی، یوزرنیم انگلیسی، شماره‌ی ۱۱ رقمی ایرانی) باید در سمت سرور با Regex فیلتر شوند تا کدهای مخرب (SQLi/XSS) نتوانند وارد دیتابیس شوند."
+      "height": 1080,
+      "text": "## 🚪 Login Requirements | الزامات امنیتی ورود\n\n🇬🇧 **1. Password hashing** — store passwords only with **Bcrypt** or **Argon2**; plain text is forbidden.\n🇮🇷 **۱. هش کردن پسورد** — ذخیره‌ی رمز عبور در دیتابیس فقط با **Bcrypt** یا **Argon2** مجاز است؛ ذخیره‌ی متن خام ممنوع.\n\n🇬🇧 **2. Rate limit** — max **5 login requests per 15 minutes** for each IP; violators get a temporary IP block.\n🇮🇷 **۲. محدودیت تلاش (Rate Limit)** — حداکثر **۵ درخواست لاگین در ۱۵ دقیقه** برای هر آی‌پی؛ در صورت تخلف، بلاک موقت آی‌پی.\n\n🇬🇧 **3. Unified error message** — never reveal whether the username or the password was wrong; only one generic message.\n🇮🇷 **۳. پیام خطای یکپارچه** — سیستم نباید بگوید یوزرنیم اشتباه است یا پسورد؛ فقط یک پیام کلی: «نام کاربری یا رمز عبور اشتباه است».\n\n🇬🇧 **4. Secure token storage** — the login JWT must only live in **HttpOnly + Secure** cookies so XSS cannot steal it.\n🇮🇷 **۴. توکن امن** — توکن ورود (JWT) فقط در کوکی‌های **HttpOnly** و **Secure** قرار گیرد تا با XSS قابل‌سرقت نباشد.\n\n🇬🇧 **5. Strict input validation** — every field (e.g. local full name, English username, phone number in your locale’s format such as an 11-digit Iranian mobile) must be regex-validated **server-side** so malicious payloads (SQLi / XSS) never reach the database.\n🇮🇷 **۵. اعتبارسنجی سختگیرانه‌ی اینپوت‌ها** — تمامی فیلدها (مثلاً نام کامل محلی، یوزرنیم انگلیسی، شماره تلفن با الگوی منطقه‌ی شما مثل موبایل ۱۱ رقمی ایران) باید در سمت سرور با Regex فیلتر شوند تا کدهای مخرب (SQLi/XSS) نتوانند وارد دیتابیس شوند."
     },
     {
-      "id": "f3281851a3c386d1",
+      "id": "efa11346875aacb6",
       "type": "text",
       "x": 720,
-      "y": 1090,
+      "y": 1140,
       "width": 600,
       "height": 490,
       "text": "## 🔑 Two Tokens, Two Secrets | دو توکن، دو کلید\n\n🇬🇧 After login, the backend (in **src/app/api/**) must issue:\n- **Access token — 2 minutes** and **Refresh token — 15 days**, each signed with its **own 128-character security key** generated with crypto and stored in .env.\n- The samples below are **Express.js** — convert them for the **Next.js App Router API**.\n\n🇮🇷 بعد از لاگین، بک‌اند (در **src/app/api/**) باید:\n- **توکن دسترسی — ۲ دقیقه** و **توکن تازه‌سازی — ۱۵ روز** را صادر کند؛ هرکدام با **کلید امنیتی جداگانه‌ی ۱۲۸ کاراکتری** ساخته‌شده با crypto و ذخیره‌شده در .env.\n- کدهای نمونه زیر **Express.js** هستند — آن‌ها را برای **API بک‌اند Next.js** تبدیل کن."
     },
     {
-      "id": "9ad8e11c3a167af9",
+      "id": "59ce8d20a3c1c6a7",
       "type": "text",
       "x": 720,
-      "y": 1636,
+      "y": 1686,
       "width": 600,
       "height": 1150,
       "text": "## 🟠 Access Token — Generate & Verify | ساخت و رمزگشایی\n\n🇬🇧 Short-lived (2 min) token carrying **id, role, firstName** and a unique **jti**.\n🇮🇷 توکن کوتاه‌عمر (۲ دقیقه) با **id، role، firstName** و شناسه‌ی یکتای **jti**.\n\n**Generate | ساخت:**\n```js\nimport \"dotenv/config\";\nimport jwt from \"jsonwebtoken\";\nimport crypto from \"crypto\";\n\nexport default function GenerateAccessToken(user) {\n  try {\n    return jwt.sign(\n      { id: user._id, role: user.role, firstName: user.firstName, jti: crypto.randomUUID() },\n      process.env.Access_Token_Security_Code,\n      { expiresIn: \"2m\" }\n    );\n  } catch (error) {\n    throw error;\n  }\n}\n```\n\n**Verify | رمزگشایی:**\n```js\nimport \"dotenv/config\";\nimport jwt from \"jsonwebtoken\";\n\nexport default function verifyAccessToken(token) {\n  try {\n    return jwt.verify(token, process.env.Access_Token_Security_Code);\n  } catch (error) {\n    return null;\n  }\n}\n```"
     },
     {
-      "id": "4b527d5bc4d9f013",
+      "id": "daef04ac9bbb5ddf",
       "type": "text",
       "x": 720,
-      "y": 2842,
+      "y": 2892,
       "width": 600,
       "height": 650,
       "text": "## 🍪 Access Token Cookie | کوکی توکن دسترسی\n\n🇬🇧 HttpOnly, Secure in production, 2-minute lifespan.\n🇮🇷 کوکی HttpOnly و Secure در پروداکشن با عمر ۲ دقیقه.\n\n```js\nres.cookie(\"accessToken\", accessToken, {\n  httpOnly: true,\n  secure: process.env.NODE_ENV === \"production\",\n  sameSite: \"strict\",\n  maxAge: 2 * 60 * 1000,\n});\n```\n\n⚠️ 🇬🇧 Set SameSite to **strict/lax** here as well — required by the CSRF policy in the OWASP group (the early draft used an empty value).\n⚠️ 🇮🇷 SameSite را اینجا هم **strict/lax** بگذار — طبق سیاست CSRF در گروه OWASP (پیش‌نویس اولیه مقدار خالی داشت)."
     },
     {
-      "id": "eaf882f2c621dddb",
+      "id": "b623d493da6ca122",
       "type": "text",
       "x": 720,
-      "y": 3548,
+      "y": 3598,
       "width": 600,
       "height": 1150,
       "text": "## 🔵 Refresh Token — Generate & Verify | ساخت و رمزگشایی\n\n🇬🇧 Long-lived (15 days) token with its **own 128-char secret key**; carries **id, firstName, jti**.\n🇮🇷 توکن بلندعمر (۱۵ روز) با **کلید امنیتی ۱۲۸ کاراکتری جدا**؛ شامل **id، firstName و jti**.\n\n**Generate | ساخت:**\n```js\nimport \"dotenv/config\";\nimport jwt from \"jsonwebtoken\";\nimport crypto from \"crypto\";\n\nexport default function GenerateRefreshToken(user) {\n  try {\n    return jwt.sign(\n      { id: user._id, firstName: user.firstName, jti: crypto.randomUUID() },\n      process.env.Refresh_Token_Security_Code,\n      { expiresIn: \"15d\" }\n    );\n  } catch (error) {\n    throw error;\n  }\n}\n```\n\n**Verify | رمزگشایی:**\n```js\nimport \"dotenv/config\";\nimport jwt from \"jsonwebtoken\";\n\nexport default function verifyRefreshToken(token) {\n  try {\n    return jwt.verify(token, process.env.Refresh_Token_Security_Code);\n  } catch (error) {\n    return null;\n  }\n}\n```"
     },
     {
-      "id": "4625abd28ff6947e",
+      "id": "9c12737af23a78c4",
       "type": "text",
       "x": 720,
-      "y": 4754,
+      "y": 4804,
       "width": 600,
       "height": 950,
       "text": "## 🍪➡️ 🚪 Refresh Cookie & Logout | کوکی تازه‌سازی و خروج\n\n🇬🇧 The refresh cookie lives 15 days; logout clears **both** cookies with identical flags.\n🇮🇷 کوکی تازه‌سازی ۱۵ روز عمر دارد؛ خروج **هر دو** کوکی را با همان فلگ‌ها پاک می‌کند.\n\n**Refresh cookie | کوکی تازه‌سازی:**\n```js\nres.cookie(\"refreshToken\", refreshToken, {\n  httpOnly: true,\n  secure: process.env.NODE_ENV === \"production\",\n  sameSite: \"strict\",\n  maxAge: 15 * 24 * 60 * 60 * 1000,\n});\n```\n\n**Logout — clear both cookies | خروج — پاک‌کردن هر دو کوکی:**\n```js\nexport default function ClearTokenCookies(res) {\n  res.clearCookie(\"accessToken\", {\n    httpOnly: true,\n    secure: process.env.NODE_ENV === \"production\",\n    sameSite: \"strict\",\n  });\n  res.clearCookie(\"refreshToken\", {\n    httpOnly: true,\n    secure: process.env.NODE_ENV === \"production\",\n    sameSite: \"strict\",\n  });\n}\n```"
     },
     {
-      "id": "f4a182af5437e4d3",
+      "id": "dee37511d74a3223",
       "type": "text",
       "x": 1460,
       "y": -160,
       "width": 600,
       "height": 620,
-      "text": "## ⏱ Session Management | مدیریت نشست\n\n🇬🇧\n- **Idle timeout:** 15–30 min of inactivity → the session expires and the user must log in again.\n- **Absolute timeout:** even active users are logged out after ~8 hours so stolen long-lived tokens become useless.\n- **Single active session:** a consultant must not be logged in from two devices/browsers at once; a new login instantly invalidates the previous session.\n\n🇮🇷\n- **انقضای بی‌فعالیتی:** ۱۵ تا ۳۰ دقیقه بی‌فعالیتی → سشن خودکار منقضی شود و کاربر دوباره لاگین کند.\n- **انقضای مطلق:** حتی اگر کاربر مدام فعال باشد، بعد از مثلاً ۸ ساعت سشن قطع شود تا توکن‌های سرقت‌شده‌ی طولانی‌مدت کار نکنند.\n- **کنترل ورود همزمان:** یک کاربر (مشاور) نباید با یک یوزرنیم همزمان از دو دستگاه یا دو مرورگر وارد شود؛ ورود جدید، سشن دستگاه قبلی را فوراً باطل کند."
+      "text": "## ⏱ Session Management | مدیریت نشست\n\n🇬🇧\n- **Idle timeout:** 15–30 min of inactivity → the session expires and the user must log in again.\n- **Absolute timeout:** even active users are logged out after ~8 hours so stolen long-lived tokens become useless.\n- **Single active session:** a user must not be logged in from two devices/browsers at once; a new login instantly invalidates the previous session.\n\n🇮🇷\n- **انقضای بی‌فعالیتی:** ۱۵ تا ۳۰ دقیقه بی‌فعالیتی → سشن خودکار منقضی شود و کاربر دوباره لاگین کند.\n- **انقضای مطلق:** حتی اگر کاربر مدام فعال باشد، بعد از مثلاً ۸ ساعت سشن قطع شود تا توکن‌های سرقت‌شده‌ی طولانی‌مدت کار نکنند.\n- **کنترل ورود همزمان:** یک کاربر نباید همزمان از دو دستگاه یا دو مرورگر وارد شود؛ ورود جدید، سشن دستگاه قبلی را فوراً باطل کند."
     },
     {
-      "id": "1a6dbbb6638daa5c",
+      "id": "a40f38354d5a32c3",
       "type": "text",
       "x": 1460,
       "y": 516,
       "width": 600,
       "height": 950,
-      "text": "## 🧱 Data Isolation & IDOR | جداسازی داده و جلوگیری از IDOR\n\n🇬🇧 **RBAC isolation**\n- A consultant must **never** see another consultant’s files, tasks, messages or customer phone numbers.\n- Every database query must filter by the logged-in user (**user_id = current user**).\n- Only the server boss may see macro reports and every consultant’s files.\n\n🇬🇧 **IDOR prevention**\n- Changing an id in the API URL (e.g. **/api/files/101 → /api/files/102**) must never return someone else’s data.\n- The server must verify **ownership of every requested id** against the logged-in user; prefer **UUIDs** over sequential ids (helpful, not sufficient alone).\n\n🇮🇷 **جداسازی نقش‌محور (RBAC)**\n- مشاور تحت هیچ شرایطی نباید فایل‌ها، تسک‌ها، پیام‌ها و شماره‌ی تماس مشتریانِ مشاور دیگر را ببیند.\n- همه‌ی کوئری‌های دیتابیس باید فیلتر **user_id = کاربر لاگین‌شده** داشته باشند.\n- فقط رئیس سرور باید بتواند گزارش‌های کلان و فایل‌های همه‌ی مشاوران را ببیند.\n\n🇮🇷 **جلوگیری از IDOR**\n- هکر نباید با تغییر آیدی در آدرس API (مثلاً **/api/files/101 به /api/files/102**) به فایل شخص دیگری دسترسی پیدا کند.\n- سرور در هر درخواست باید مالکیت آیدی را نسبت به یوزر لاگین‌شده چک کند؛ استفاده از **UUID** به‌جای آیدی ترتیبی (کمکی، نه کامل)."
+      "text": "## 🧱 Data Isolation & IDOR | جداسازی داده و جلوگیری از IDOR\n\n🇬🇧 **RBAC isolation**\n- A user must **never** see another user’s files, tasks, messages or customer data.\n- Every database query must filter by the logged-in user (**user_id = current user**).\n- Only admins may see global reports and every user’s data.\n\n🇬🇧 **IDOR prevention**\n- Changing an id in the API URL (e.g. **/api/files/101 → /api/files/102**) must never return someone else’s data.\n- The server must verify **ownership of every requested id** against the logged-in user; prefer **UUIDs** over sequential ids (helpful, not sufficient alone).\n\n🇮🇷 **جداسازی نقش‌محور (RBAC)**\n- کاربر تحت هیچ شرایطی نباید فایل‌ها، تسک‌ها، پیام‌ها و داده‌ی مشتریانِ کاربر دیگر را ببیند.\n- همه‌ی کوئری‌های دیتابیس باید فیلتر **user_id = کاربر لاگین‌شده** داشته باشند.\n- فقط مدیران (admin) باید بتوانند گزارش‌های کلان و داده‌های همه‌ی کاربران را ببینند.\n\n🇮🇷 **جلوگیری از IDOR**\n- هکر نباید با تغییر آیدی در آدرس API (مثلاً **/api/files/101 به /api/files/102**) به داده‌ی شخص دیگری دسترسی پیدا کند.\n- سرور در هر درخواست باید مالکیت آیدی را نسبت به یوزر لاگین‌شده چک کند؛ استفاده از **UUID** به‌جای آیدی ترتیبی (کمکی، نه کامل)."
     },
     {
-      "id": "ddada0c767dd36ae",
+      "id": "3ec4e7fb5bf5053b",
       "type": "text",
       "x": 1460,
       "y": 1522,
       "width": 600,
       "height": 470,
-      "text": "## 😶 Data Masking | ماسک‌کردن اطلاعات حساس\n\n🇬🇧 Customer phone numbers are the crown jewels of a real-estate CRM. In listings they must appear **masked** (e.g. **0912\\*\\*\\*\\*567**); the full number is revealed only through a **“View” button — and every reveal is logged**. This stops a rogue consultant from bulk-exporting the data.\n\n🇮🇷 شماره‌ی تماس مشتریان املاک بسیار ارزشمند است. در لیستینگ‌ها باید **ماسک‌شده** نمایش داده شود (مثلاً **0912\\*\\*\\*\\*567**)؛ نمایش کامل فقط با کلیک روی دکمه‌ی **«مشاهده»** انجام شود که در لاگ ثبت می‌گردد. این کار از خروجی‌گرفتن دسته‌جمعی دیتا توسط مشاور سوءاستفاده‌گر جلوگیری می‌کند."
+      "text": "## 😶 Data Masking | ماسک‌کردن اطلاعات حساس\n\n🇬🇧 Sensitive customer data — phone numbers above all — is the crown jewels of any product. In list views it must appear **masked** (e.g. **0912\\*\\*\\*\\*567**); the full value is revealed only through a **“View” button — and every reveal is logged**. This stops a rogue user or employee from bulk-exporting the data.\n\n🇮🇷 داده‌های حساس مشتریان — بالاخص شماره تماس — ارزشمندترین دارایی هر محصول است. در لیست‌ها باید **ماسک‌شده** نمایش داده شود (مثلاً **0912\\*\\*\\*\\*567**)؛ نمایش کامل فقط با کلیک روی دکمه‌ی **«مشاهده»** انجام شود که در لاگ ثبت می‌گردد. این کار از خروجی‌گرفتن دسته‌جمعی دیتا توسط کاربر یا کارمند سوءاستفاده‌گر جلوگیری می‌کند."
     },
     {
-      "id": "8baa80a15f568d90",
+      "id": "6d7fbcd82be9f317",
       "type": "text",
       "x": 1460,
       "y": 2048,
       "width": 600,
-      "height": 720,
-      "text": "## 📎 File Upload Security | امنیت آپلود فایل\n\n🇬🇧 For property files (photos, deeds, permits):\n- Only whitelisted formats are accepted (e.g. **jpg, png, pdf**) — check the extension **and** the MIME type.\n- Filenames are **randomized on the server** so users cannot guess storage paths.\n- Uploaded files get **no execute permission** → hacker web shells cannot run.\n- Store uploads in **cloud storage**, never inside the code or the database — apply this across the whole project wherever uploads exist.\n\n🇮🇷 برای فایل‌های املاک (عکس، سند، مجوز):\n- فقط فرمت‌های مجاز از **Whitelist** (مثل **jpg، png، pdf**) پذیرفته شود — با بررسی پسوند **و** MIME Type.\n- نام فایل‌ها در سرور به‌صورت **رندوم** تغییر کند تا کاربر نتواند مسیر سرور را حدس بزند.\n- فایل‌های آپلودی نباید **دسترسی اجرایی (Execute)** داشته باشند تا از آپلود و اجرای شل‌های هکری (Web Shell) جلوگیری شود.\n- ذخیره‌سازی در **فضای ابری**، نه داخل کد یا دیتابیس — روی کل پروژه پیاده شده و باید در بقیه‌ی بخش‌ها هم پیاده شود."
+      "height": 750,
+      "text": "## 📎 File Upload Security | امنیت آپلود فایل\n\n🇬🇧 For user uploads (images, documents, PDFs — adapt the whitelist to your product):\n- Only whitelisted formats are accepted (e.g. **jpg, png, pdf**) — check the extension **and** the MIME type.\n- Filenames are **randomized on the server** so users cannot guess storage paths.\n- Uploaded files get **no execute permission** → hacker web shells cannot run.\n- Store uploads in **cloud storage**, never inside the code or the database — apply this across the whole project wherever uploads exist.\n\n🇮🇷 برای فایل‌های آپلودی کاربران (عکس، مدرک، PDF — لیست مجاز را مطابق محصول خود تنظیم کنید):\n- فقط فرمت‌های مجاز از **Whitelist** (مثل **jpg، png، pdf**) پذیرفته شود — با بررسی پسوند **و** MIME Type.\n- نام فایل‌ها در سرور به‌صورت **رندوم** تغییر کند تا کاربر نتواند مسیر سرور را حدس بزند.\n- فایل‌های آپلودی نباید **دسترسی اجرایی (Execute)** داشته باشند تا از آپلود و اجرای شل‌های هکری (Web Shell) جلوگیری شود.\n- ذخیره‌سازی در **فضای ابری**، نه داخل کد یا دیتابیس — در تمام بخش‌هایی که آپلود دارند اعمال شود."
     },
     {
-      "id": "a2d211ca22aa0ff0",
+      "id": "165c8c95013d77e9",
       "type": "text",
       "x": 1460,
-      "y": 2824,
+      "y": 2854,
       "width": 600,
       "height": 570,
-      "text": "## 🤖 Chat & AI Security | امنیت چت و هوش مصنوعی\n\n🇬🇧\n- **Internal chat:** messages must be **sanitized** before storage so users cannot inject malicious scripts (XSS) into messages.\n- **AI inputs:** every request needs a **rate limit + character-length limit**, so a consultant cannot inflate your AI API costs with heavy requests (prompt-injection & abuse protection).\n\n🇮🇷\n- **چت داخلی:** پیام‌ها باید قبل از ذخیره در دیتابیس **پاکسازی (Sanitize)** شوند تا کاربران نتوانند کدهای مخرب (XSS) در پیام‌ها قرار دهند.\n- **ورودی هوش مصنوعی:** درخواست‌ها باید **محدودیت تعداد (Rate Limit) و طول کاراکتر** داشته باشند تا مشاوری با ارسال درخواست‌های سنگین، هزینه‌ی API هوش مصنوعی را بالا نبرد (محافظت از Prompt Injection)."
+      "text": "## 🤖 Chat & AI Security | امنیت چت و هوش مصنوعی\n\n🇬🇧\n- **Internal chat:** messages must be **sanitized** before storage so users cannot inject malicious scripts (XSS) into messages.\n- **AI inputs:** every request needs a **rate limit + character-length limit**, so a single user cannot inflate your AI API costs with heavy requests (prompt-injection & abuse protection).\n\n🇮🇷\n- **چت داخلی:** پیام‌ها باید قبل از ذخیره در دیتابیس **پاکسازی (Sanitize)** شوند تا کاربران نتوانند کدهای مخرب (XSS) در پیام‌ها قرار دهند.\n- **ورودی هوش مصنوعی:** درخواست‌ها باید **محدودیت تعداد (Rate Limit) و طول کاراکتر** داشته باشند تا یک کاربر با ارسال درخواست‌های سنگین، هزینه‌ی API هوش مصنوعی را بالا نبرد (محافظت از Prompt Injection)."
     },
     {
-      "id": "abf1d9fd5d00a536",
+      "id": "5d903ecf0115c185",
       "type": "text",
       "x": 1460,
-      "y": 3450,
+      "y": 3480,
       "width": 600,
       "height": 440,
-      "text": "## 📜 Audit Trail | لاگ‌گیری اقدامات حساس\n\n🇬🇧 Every sensitive action — viewing a phone number, editing a property file, deleting a task, downloading a file — must be logged in a log table with **IP + timestamp + username + action type**, so if information ever leaks, the server boss can trace exactly **who leaked what, and when**.\n\n🇮🇷 هر اقدام حساس — مشاهده‌ی شماره تماس، تغییر در فایل ملک، حذف تسک، دانلود فایل — باید در جدول لاگ با ثبت **آی‌پی + زمان + یوزرنیم + نوع عملیات** ذخیره شود تا در صورت لو رفتن اطلاعات، رئیس سرور دقیقاً بفهمد **چه کسی، چه چیزی را، کِی لو داده است**."
+      "text": "## 📜 Audit Trail | لاگ‌گیری اقدامات حساس\n\n🇬🇧 Every sensitive action — viewing sensitive data, editing or deleting records, downloading files — must be logged in a log table with **IP + timestamp + username + action type**, so if information ever leaks, the administrator can trace exactly **who leaked what, and when**.\n\n🇮🇷 هر اقدام حساس — مشاهده‌ی داده‌ی حساس، تغییر یا حذف رکورد، دانلود فایل — باید در جدول لاگ با ثبت **آی‌پی + زمان + یوزرنیم + نوع عملیات** ذخیره شود تا در صورت لو رفتن اطلاعات، مدیر سیستم دقیقاً بفهمد **چه کسی، چه چیزی را، کِی لو داده است**."
     },
     {
-      "id": "da725f2964cb4d82",
+      "id": "284b34b08a499ad6",
       "type": "text",
       "x": 2200,
       "y": -160,
@@ -223,7 +223,7 @@
       "text": "## 🐞 Threats 1–5 | تهدیدهای ۱ تا ۵\n\n**1 — SQL Injection | تزریق SQL**\n🇬🇧 Attackers must never be able to inject malicious SQL through user inputs — e.g. bypassing login with **’ OR 1=1 --**. Sanitize every input.\n🇮🇷 مهاجم نبتواند از طریق ورودی‌های کاربر دستورات SQL مخرب به دیتابیس تزریق کند و نتواند با **’ OR 1=1 --** احراز هویت را دور بزند.\n\n**2 — XSS | اسکریپت‌نویسی بین‌سایتی**\n🇬🇧 All three types — **Reflected, Stored, DOM-based** — must be blocked; otherwise attackers run malicious JavaScript in the victim’s browser to steal cookies/sessions or tamper with user actions.\n🇮🇷 هر سه نوع — **Reflected، Stored و DOM-based** — باید مسدود باشند؛ وگرنه مهاجم جاوااسکریپت مخرب در مرورگر قربانی اجرا می‌کند، کوکی‌ها را می‌دزدد، سشن را می‌قاپد یا عملیات کاربران را تغییر می‌دهد.\n\n**3 — CSRF | جعل درخواست بین‌سایتی**\n🇬🇧 Browsers auto-send cookies with every request; attackers trick users into unwanted actions (money transfer, password change). Fix: **CSRF Token** in forms + **SameSite=Strict/Lax** cookies + **re-confirmation for sensitive operations**.\n🇮🇷 مرورگر قربانی خودکار کوکی‌ها را همراه درخواست می‌فرستد؛ مهاجم با فریب کاربر باعث ارسال درخواست ناخواسته می‌شود. راه‌حل: **توکن CSRF** در فرم‌ها + فلگ **SameSite=Strict/Lax** روی کوکی‌ها + **درخواست مجوز مجدد** برای عملیات‌های حساس.\n\n**4 — IDOR | ارجاع مستقیم ناامن**\n🇬🇧 See the **Data Isolation & IDOR** card in group 5 — server-side authorization per request, Object-Level Authorization, UUIDs.\n🇮🇷 کارت **جداسازی داده و IDOR** در گروه ۵ را ببینید — بررسی دسترسی در سمت سرور برای هر درخواست، Object-Level Authorization و UUID.\n\n**5 — Authentication Failures | شکست در احراز هویت و مدیریت سشن**\n🇬🇧 Weak/default passwords, session hijacking (XSS/sniffing), session fixation, no session expiry, no rate limit on login (brute force). Fix: **Secure + HttpOnly + SameSite** cookies, session expiry + **id regeneration after login**, **account lockout** after failed attempts.\n🇮🇷 رمزهای ضعیف یا پیش‌فرض، Session Hijacking، Session Fixation، عدم انقضای نشست‌ها، نبود Rate Limit در لاگین (امکان Brute Force). راه‌حل: کوکی‌های **Secure/HttpOnly/SameSite**، انقضای سشن و **بازتولید شناسه بعد از لاگین** و **قفل حساب پس از تلاش‌های ناموفق**."
     },
     {
-      "id": "94d284b4e7218db3",
+      "id": "c75c7958d12dfb51",
       "type": "text",
       "x": 2200,
       "y": 1326,
@@ -232,7 +232,7 @@
       "text": "## 🐞 Threats 6–10 | تهدیدهای ۶ تا ۱۰\n\n**6 — Sensitive Data Exposure | افشای داده‌های حساس**\n🇬🇧 Moving or storing sensitive data without proper encryption. Fix: **HTTPS mandatory (TLS 1.2+ & HSTS)**; never MD5/unsalted hashes — **bcrypt/Argon2** only; **encrypt data at rest & in transit**; proper **secrets management**; never show **stack traces** to users; never put **API keys in frontend code**.\n🇮🇷 انتقال یا ذخیره‌ی اطلاعات حساس بدون رمزنگاری مناسب. راه‌حل: **HTTPS اجباری با TLS 1.2+ و HSTS**؛ هرگز MD5 یا هش بدون salt — فقط **bcrypt/Argon2**؛ **رمزنگاری داده‌های حساس در Rest و Transit**؛ **مدیریت صحیح کلیدها و اسرار**؛ عدم نمایش **Stack Trace** به کاربر؛ قرارندادن **API Key در کد فرانت‌اند** ممنوع.\n\n**7 — SSRF | جعل درخواست سمت سرور**\n🇬🇧 Attackers force the server to call internal network addresses — e.g. a profile image-URL field reading **http://169.254.169.254/** (AWS metadata). Fix: **whitelist allowed domains**, **block internal & loopback IPs**, **no automatic redirects**.\n🇮🇷 مهاجم سرور را وادار می‌کند به آدرس‌های داخلی شبکه درخواست بفرستد — مثلاً فیلد URL عکس پروفایل با **http://169.254.169.254/** اطلاعات حساس سرور را می‌خواند. راه‌حل: **Whitelist دامنه‌های مجاز**، **مسدودکردن IPهای داخلی و Loopback**، **عدم ارسال خودکار Redirectها**.\n\n**8 — Security Misconfiguration | پیکربندی ناامن**\n🇬🇧 Debug mode in production, directory listing enabled, default pages & server version banners (e.g. **Server: Apache 2.4.49**), CORS set to **\\***, unprotected admin panels. Fix: **server hardening**, remove unneeded services, **CORS only for allowed domains**, **Security Headers**.\n🇮🇷 حالت Debug در Production، Directory Listing فعال، صفحات پیش‌فرض و اطلاعات نسخه‌ی سرور (مثل **Server: Apache 2.4.49**)، CORS با تنظیمات باز (**\\***) و پنل‌های مدیریتی بدون محافظت. راه‌حل: **Hardening سرور** و حذف سرویس‌های غیرضروری، **تنظیم CORS فقط برای دامنه‌های مجاز** و **Security Headers**.\n\n**9 — Vulnerable Components | کامپوننت‌های آسیب‌پذیر**\n🇬🇧 Old libraries/frameworks with known vulnerabilities. Fix: **regular package updates**, review the details, **remove unused dependencies**.\n🇮🇷 استفاده از کتابخانه‌ها و فریم‌ورک‌های قدیمی با آسیب‌پذیری شناخته‌شده. راه‌حل: **به‌روزرسانی منظم پکیج‌ها**، بررسی جزئیات و **حذف وابستگی‌های استفاده‌نشده**.\n\n**10 — Unsafe File Uploads | آپلود ناامن فایل‌ها**\n🇬🇧 Malicious uploads such as web shells via extension tricks. Fix: **whitelist extensions & MIME types**, **random filenames stored outside the web root**, **antivirus scanning**, **no execute permission** — full details in the File Upload card (group 5).\n🇮🇷 آپلود فایل مخرب مثل **Webshell** با تغییر پسوند. راه‌حل: **Whitelist پسوندها و MIME Typeها**، **تغییر نام فایل‌ها و ذخیره خارج از ریشه‌ی وب**، **اسکن آنتی‌ویروس**، **حذف دسترسی اجرا** — جزئیات کامل در کارت آپلود فایل (گروه ۵)."
     },
     {
-      "id": "7d8fa4a08b551ab5",
+      "id": "237be60aab8b90ce",
       "type": "text",
       "x": 2200,
       "y": 3012,
@@ -243,50 +243,50 @@
   ],
   "edges": [
     {
-      "id": "f20d3dd37dda69fc",
-      "fromNode": "93860486f3dc9e38",
+      "id": "17ef5aa4e34100c6",
+      "fromNode": "c8de85078f28a1fb",
       "fromSide": "bottom",
-      "toNode": "b9b28c37be93b963",
+      "toNode": "6087405fc83fa2d0",
       "toSide": "top",
       "color": "5"
     },
     {
-      "id": "1d552b8a6e6853e3",
-      "fromNode": "0bad965726660f6f",
+      "id": "36eee6ccb99a53c9",
+      "fromNode": "6f9f997d8e5cc739",
       "fromSide": "bottom",
-      "toNode": "c7c845455e79b1f1",
+      "toNode": "585535ef7c67b116",
       "toSide": "top",
       "color": "6"
     },
     {
-      "id": "e456270d7916695c",
-      "fromNode": "518b55ee5b5e6001",
+      "id": "402bf11856ad871f",
+      "fromNode": "a7a34274c611efb6",
       "fromSide": "right",
-      "toNode": "942852f9ea15e8e6",
+      "toNode": "d919cec8c4daf578",
       "toSide": "left",
       "color": "1"
     },
     {
-      "id": "f6f5671c7ac8ea35",
-      "fromNode": "942852f9ea15e8e6",
+      "id": "1a95e4dda5356db0",
+      "fromNode": "d919cec8c4daf578",
       "fromSide": "bottom",
-      "toNode": "f3281851a3c386d1",
+      "toNode": "efa11346875aacb6",
       "toSide": "top",
       "color": "2"
     },
     {
-      "id": "679c6b157c505d35",
-      "fromNode": "4625abd28ff6947e",
+      "id": "2fc910d69f7a5c15",
+      "fromNode": "9c12737af23a78c4",
       "fromSide": "right",
-      "toNode": "f4a182af5437e4d3",
+      "toNode": "dee37511d74a3223",
       "toSide": "left",
       "color": "4"
     },
     {
-      "id": "274d8ce14864c58f",
-      "fromNode": "abf1d9fd5d00a536",
+      "id": "6894e1ab4858eec2",
+      "fromNode": "5d903ecf0115c185",
       "fromSide": "right",
-      "toNode": "da725f2964cb4d82",
+      "toNode": "284b34b08a499ad6",
       "toSide": "left",
       "color": "3"
     }

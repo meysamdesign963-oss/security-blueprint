@@ -1,10 +1,11 @@
 <div align="center">
 
-# 🔐 Security Blueprint — Real-Estate CRM
-### نقشه‌ی جامع امنیت و مهندسی — سامانه‌ی مدیریت مشاوران املاک
+# 🔐 Security Blueprint — Universal Web App Spec
+### نقشه‌ی جامع امنیت و مهندسی — پرامپت عمومی برای هر اپلیکیشن وب
 
 [![Canvas](https://img.shields.io/badge/Obsidian-Canvas-7C3AED?logo=obsidian&logoColor=white)](https://obsidian.md)
 [![Spec](https://img.shields.io/badge/Spec-Bilingual%20FA%20%2F%20EN-0E7490)](#)
+[![Prompt](https://img.shields.io/badge/Use%20As-Prompt%20%2F%20Spec-9333EA)](#-use-it-as-a-prompt)
 [![Frontend](https://img.shields.io/badge/Frontend-Next.js%20%2B%20React-111827?logo=nextdotjs&logoColor=white)](#)
 [![Database](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white)](#)
 [![Security](https://img.shields.io/badge/Security-OWASP%20Top%2010-B91C1C)](#-owasp-top-10-checklist)
@@ -19,13 +20,20 @@
 
 ## 🇬🇧 English
 
-A complete **bilingual (English + Persian) security & engineering specification** for a Real-Estate CRM built with **Next.js + MongoDB**. The entire blueprint lives in one interactive Obsidian Canvas file — organized into **6 color-coded categories** with step-by-step flow, so any developer (or AI coding agent) can pick it up and implement it without ambiguity.
+A **universal, project-agnostic security & engineering blueprint** for any web application built with **Next.js + MongoDB**. The entire spec lives in one interactive Obsidian Canvas file — organized into **6 color-coded categories** with step-by-step flow — so any developer (or AI coding agent) can pick it up and implement it without ambiguity. **Works for any project: dashboards, CRMs, shops, SaaS — anything.**
+
+### 🚀 Use It as a Prompt
+
+1. **Fork or copy** this repository (or just the canvas file) into your project
+2. Open `Security-Blueprint.canvas` in [Obsidian](https://obsidian.md) — or any [JSON Canvas](https://jsoncanvas.org) compatible app
+3. Hand it to your **developer or AI coding agent** as the security & engineering spec
+4. Adapt the product-specific examples (upload whitelist, phone format, masked fields) to your own domain — everything else applies as-is
 
 ### 📂 Repository Contents
 
 | File | Description |
 |---|---|
-| [`Security-Blueprint.canvas`](./Security-Blueprint.canvas) | The full interactive blueprint (Obsidian / [JSON Canvas](https://jsoncanvas.org) format) |
+| [`Security-Blueprint.canvas`](./Security-Blueprint.canvas) | The full interactive blueprint (Obsidian / JSON Canvas format) |
 | `README.md` | This bilingual guide |
 
 ### 🗺 Blueprint Map — 6 Categories
@@ -52,8 +60,8 @@ Every card inside the canvas is **English first, then Persian** (marked with �
 | 💬 Errors | One unified message — never reveal whether username or password was wrong |
 | 🍪 Token storage | JWT **only** in `HttpOnly` + `Secure` + `SameSite` cookies (XSS-proof) |
 | ⏱ Sessions | Idle timeout 15–30 min · absolute timeout ~8 h · single active session per user |
-| 🧱 Data isolation | Every query filtered by `user_id`; only the boss sees global reports |
-| 😶 Data masking | Customer phones shown as `0912****567`; full view logged |
+| 🧱 Data isolation | Every query filtered by `user_id`; only admins see global reports |
+| 😶 Data masking | Sensitive fields shown masked (e.g. `0912****567`); full view logged |
 | 📎 Uploads | Whitelist (`jpg/png/pdf` + MIME), random names, no execute, cloud storage |
 | 🤖 AI & Chat | Sanitized messages, rate + length limits on AI calls |
 | 📜 Audit trail | IP + timestamp + username + action for every sensitive operation |
@@ -114,7 +122,14 @@ No Obsidian? Any app that supports the open [JSON Canvas](https://jsoncanvas.org
 
 ## 🇮🇷 فارسی
 
-یک مستند **دوزبانه (فارسی + انگلیسی)** و کامل برای **امنیت و مهندسی** سامانه‌ی مدیریت املاک با **Next.js + MongoDB**. کل نقشه در یک فایل کانواز تعاملی اوبسیدین است — با **۶ دسته‌بندی رنگی** و جریان مرحله‌به‌مرحله، تا هر توسعه‌دهنده (یا ایجنت هوش مصنوعی) بتواند بدون ابهام آن را پیاده‌سازی کند.
+یک **بلوپرینت عمومی و مستقل از نوع پروژه** برای امنیت و مهندسی هر اپلیکیشن وب با **Next.js + MongoDB**. کل اسپک در یک فایل کانواز تعاملی اوبسیدین است — با **۶ دسته‌بندی رنگی** و جریان مرحله‌به‌مرحله — تا هر توسعه‌دهنده (یا ایجنت هوش مصنوعی) بتواند بدون ابهام آن را پیاده‌سازی کند. **برای هر پروژه‌ای کار می‌کند: داشبورد، CRM، فروشگاه، SaaS — هر چیز.**
+
+### 🚀 استفاده به‌عنوان پرامپت
+
+1. این ریپو (یا فقط فایل کانواز) را **فورک یا کپی** کنید داخل پروژه‌ی خودتان
+2. `Security-Blueprint.canvas` را در [Obsidian](https://obsidian.md) — یا هر برنامه‌ی سازگار با [JSON Canvas](https://jsoncanvas.org) — باز کنید
+3. آن را به‌عنوان اسپک امنیتی و مهندسی به **توسعه‌دهنده یا ایجنت هوش مصنوعی** خود بدهید
+4. مثال‌های وابسته به محصول (لیست آپلود مجاز، فرمت شماره تماس، فیلدهای ماسک‌شونده) را مطابق دامنه‌ی خودتان تنظیم کنید — بقیه بدون تغییر قابل اعمال است
 
 ### 📂 محتوای مخزن
 
@@ -147,8 +162,8 @@ No Obsidian? Any app that supports the open [JSON Canvas](https://jsoncanvas.org
 | 💬 خطاها | یک پیام یکپارچه — هرگز نگوید یوزرنیم اشتباه است یا پسورد |
 | 🍪 نگهداری توکن | JWT فقط در کوکی‌های `HttpOnly` + `Secure` + `SameSite` (ضد XSS) |
 | ⏱ سشن | انقضای بی‌فعالیتی ۱۵–۳۰ دقیقه · انقضای مطلق ~۸ ساعت · یک سشن فعال برای هر کاربر |
-| 🧱 جداسازی داده | همه‌ی کوئری‌ها با فیلتر `user_id`؛ فقط رئیس سرور گزارش‌های کلان را می‌بیند |
-| 😶 ماسک داده | شماره مشتریان به‌صورت `0912****567`؛ نمایش کامل با ثبت لاگ |
+| 🧱 جداسازی داده | همه‌ی کوئری‌ها با فیلتر `user_id`؛ فقط مدیران گزارش‌های کلان را می‌بینند |
+| 😶 ماسک داده | فیلدهای حساس به‌صورت ماسک (مثلاً `0912****567`)؛ نمایش کامل با ثبت لاگ |
 | 📎 آپلود | Whitelist (پسوند + MIME)، نام رندوم، بدون دسترسی اجرا، فضای ابری |
 | 🤖 چت و AI | پیام‌های Sanitize شده، محدودیت تعداد و طول درخواست‌های AI |
 | 📜 لاگ حساس | آی‌پی + زمان + یوزرنیم + نوع عملیات برای هر اقدام حساس |
