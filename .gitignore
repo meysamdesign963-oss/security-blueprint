@@ -1,0 +1,24 @@
+# ==========================================
+# .gitignore — Security Blueprint repo
+# ==========================================
+
+# ---------- Secrets — never commit ----------
+.env
+.env.*
+*.pem
+*.key
+
+# ---------- Dependencies ----------
+node_modules/
+
+# ---------- Security scan tool state ----------
+.mimosa/
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# ---------- Obsidian (if opened as a vault) ----------
+.obsidian/
